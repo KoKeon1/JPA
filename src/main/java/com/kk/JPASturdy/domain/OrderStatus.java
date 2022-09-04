@@ -1,4 +1,5 @@
 package com.kk.JPASturdy.domain;
 
-public class OrderStatus {
+public enum OrderStatus {
+    ORDER, CANCEL
 }

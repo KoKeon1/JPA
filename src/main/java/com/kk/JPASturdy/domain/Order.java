@@ -32,6 +32,7 @@ public class Order {
 
     private LocalDateTime orderData; //java8이상부터 LocalDateTime 지원하며 Hibernate가 자동Mapping
 
+    @Enumerated(value = EnumType.STRING)
     private OrderStatus status;
 
 }

@@ -11,7 +11,7 @@ import javax.persistence.*;
 public class OrderItem {
 
     @Id @GeneratedValue
-    @Column(name = "order_item-id")
+    @Column(name = "order_item_id")
     private Long Id;
 
     @ManyToOne
